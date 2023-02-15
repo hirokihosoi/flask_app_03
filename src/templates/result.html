@@ -1,0 +1,10 @@
+<title>Apple_Tomato Predict App</title>
+{% if apple_tomatoName %}
+    <h1>これは {{ apple_tomatoName }} です</h1>
+    <div>
+        <img src="{{ image }}">
+    </div>
+    <a href="./">トップへ戻る</a>
+{% else %}
+    <a href="./">トップへ戻る</a>
+{% endif %}
